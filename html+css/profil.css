@@ -1,0 +1,168 @@
+body {
+    font-family: verdana;
+    background-color: black;
+}
+.topnav {
+    text-align: center;
+    background-color: #338c08;
+    margin-top: -10px;
+
+}
+.bg-topnav .logo img{
+    width: 200px;
+    height: auto;
+    padding-right: 30px;
+}
+
+
+
+.topnav li {
+    display: inline;
+    margin-top: -10px;
+}
+
+.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 19px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #EAEAEA;
+    color: #4E0065;
+}
+
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #83ff47;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.bg-topnav {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)), url("img/rektor unej.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   	margin-top: -17px;
+}
+.dalam img{
+    margin-bottom: 50px;
+
+}
+
+.content {
+    height: 1000px;
+    background: linear-gradient(rgba(255,255,255,0.21),
+        rgba(0,0,0,1)),url("img/rektor unej.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.visi{
+    margin: 15% 15%;
+}
+.visi{
+    width: 1000px;
+    height: 300px;
+    background-color: rgba(255,255,255,0.8);
+    background-image: linear-gradient(#74c601, #fce40f);
+    border: 50px;
+    border-radius: 30px;
+    color:#024240;
+    font-size: 30px;
+
+}
+
+.misi{
+    margin: 15% 15%;
+}
+
+.misi{
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(299,299,299,0.9);
+    background-image: linear-gradient (#74c601, #07b79d);
+    border: 50px;
+    border-radius: 30px;
+    color: #024240;
+    background-position: center;
+    font-size: 17px;
+}
+
+
+footer{
+    margin-top: -10%;
+}
+
+.unej{
+    padding: 5% 10% ;
+}
+
+.atas{
+    display: flex;
+    flex-wrap: 0 0;
+    align-items: center;
+    color: white;
+}
+.tengah table{
+    margin-top: 50px;
+}
+
+.tengah p{
+    text-align: left;
+    color: white;
+    font-size: 14px;
+}
+
+.tengah img{
+    width: 20px;
+    height: 20px;
+    padding-right: 50px;
+    padding-bottom: 24px;
+}
+
+.akhir{
+    margin-top: 70px;
+}
+
+.akhir img{
+    width: 35px;
+    height: 35px;
+    padding-right: 50px;
+}
+
+

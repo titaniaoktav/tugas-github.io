@@ -1,0 +1,42 @@
+body {
+    font-family: verdana;
+    background-color: #e0c900;
+}
+.topnav {
+    text-align: center;
+    background-color: #baa703;
+    margin-top: -10px;
+
+}
+.bg-topnav .logo img{
+    width: 100px;
+    height: auto;
+    padding-right: 30px;
+}
+.topnav li {
+    display: inline;
+    margin-top: -10px;
+}
+
+.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 19px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #EAEAEA;
+    color: #4E0065;
+}
+#day{
+	left: 50px;
+}
